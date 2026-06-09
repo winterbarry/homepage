@@ -1,0 +1,98 @@
+/* HEADER SECTION */
+.header {
+  background-color: #0891b2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.header-img {
+  max-width: 200px;
+  height: auto;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.about {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  max-width: 350px;
+  height: auto;
+}
+
+.about-text {
+  /* line-height: 1.6; */
+  overflow-wrap: break-word;
+}
+
+.about-me {
+  margin-bottom: 1rem;
+}
+
+.about-icons {
+  margin-left: auto;
+}
+
+/* MAIN SECTION */
+
+.main {
+  margin-top: 2rem;
+}
+
+.project {
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.project-screen-1 {
+  background-color: red;
+}
+
+.project-screen-2 {
+  background-color: purple;
+}
+
+.project-screen-3 {
+  background-color: green;
+}
+
+.project-screen-4 {
+  background-color: violet;
+}
+
+.project-screen-5 {
+  background-color: burlywood;
+}
+
+.project-screen-6 {
+  background-color: blue;
+}
+
+.external-img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.phone-img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.email-img {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+}
+
+/* mobile */
+@media (min-width: 320px) {
+}
