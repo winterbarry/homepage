@@ -1,8 +1,12 @@
 /* GLOBAL */
+body {
+  padding: 0 5rem;
+}
+
 .header,
 .main,
 .footer {
-  width: min(1200px, 90%);
+  width: min(1200px, 75%);
   margin: 0 auto;
 }
 
@@ -12,13 +16,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem 0;
 }
 
 .header-img {
   max-width: 200px;
   height: auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .profile-img {
@@ -54,12 +58,10 @@
 
 .main {
   margin-top: 2rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .project {
-  padding: 1.5rem;
-  border-radius: 10px;
   max-width: 250px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
@@ -69,6 +71,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding-top: 10px;
+  width: 100%;
 }
 
 .project-screen-1 {
@@ -103,16 +106,22 @@
 .project-screen-6 {
   padding: 2.5rem;
   color: white;
+  margin: 0;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
 }
 
 .project-details {
-  display: flex;
-  align-items: center;
+  padding: 0 1rem 3rem;
 }
 
 .project-images {
   display: flex;
   margin-left: auto;
+  padding: 1rem;
 }
 
 .external-img {
@@ -131,6 +140,10 @@
 }
 
 /* Footer */
+.footer {
+  padding: 1rem;
+}
+
 .contact {
   background-color: #0891b2;
   color: white;
