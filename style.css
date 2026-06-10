@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 /* HEADER SECTION */
 .header {
   background-color: #0891b2;
@@ -10,10 +12,13 @@
 .header-img {
   max-width: 200px;
   height: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .profile-img {
   width: 100%;
+  display: block; /* might cause issues with text */
+  object-fit: cover;
 }
 
 .about {
@@ -23,6 +28,7 @@
   padding: 1rem;
   max-width: 350px;
   height: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .about-text {
@@ -42,12 +48,25 @@
 
 .main {
   margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .project {
   padding: 1.5rem;
   border-radius: 10px;
-  max-width: 200px;
+  max-width: 250px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.project-rows {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  gap: 2rem;
+  padding-top: 10px;
 }
 
 .project-screen-1 {
@@ -74,6 +93,26 @@
   background-color: blue;
 }
 
+.project-screen-1,
+.project-screen-2,
+.project-screen-3,
+.project-screen-4,
+.project-screen-5,
+.project-screen-6 {
+  padding: 2.5rem;
+  color: white;
+}
+
+.project-details {
+  display: flex;
+  align-items: center;
+}
+
+.project-images {
+  display: flex;
+  margin-left: auto;
+}
+
 .external-img {
   max-width: 20px;
   max-height: 20px;
@@ -87,6 +126,11 @@
 .email-img {
   max-width: 20px;
   max-height: 20px;
+}
+
+/* Footer */
+.contact {
+  background-color: #0891b2;
 }
 
 /* tablet */
